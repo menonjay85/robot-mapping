@@ -1,0 +1,2 @@
+-> Load the laser scan data from a file named 'laserscan.dat' into a NumPy array. This function reads numerical data stored in a text file.
+-> 
