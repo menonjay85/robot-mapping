@@ -1,10 +1,10 @@
-## Step-by-Step Guide to Processing Laser Scan Data
+## Processing Laser Scan Data
 
 1. **Load the Data**
    - We used the `numpy` library's `loadtxt` function to read laser scan measurements from a text file named `laserscan.dat`. This function reads numerical data stored in a text file, preparing it for analysis.
 
 2. **Generate Corresponding Angles**
-   - We created an array of angles ranging from `&pi;/2` to `-&pi;/2` to correlate each scan point with its directional measurement. This was done using the `linspace` function in `numpy`, ensuring that the final value `&pi;/2` was included.
+   - We created an array of angles ranging from `-π/2` to `π/2` to correlate each scan point with its directional measurement. This was done using the `linspace` function in `numpy`, ensuring that the final value `π/2` was included.
 
 3. **Convert Polar Coordinates to Cartesian Coordinates**
    - The polar coordinates (angle and radius) from the scan data were converted into Cartesian coordinates (x and y positions). This was achieved by multiplying the scan distances by the cosine (for x coordinates) and sine (for y coordinates) of the corresponding angles.
