@@ -20,5 +20,3 @@
 
 7. **Transform and Plot Global Coordinates**
    - The local coordinates were transformed to global coordinates using the calculated matrices. We then re-plotted these points to show their positions in the world coordinate system, giving a true representation of the environment relative to the robot's starting position.
-
-These steps provide a comprehensive overview of converting raw laser scan data into a visual format that can be analyzed for robotic navigation and environmental mapping.
